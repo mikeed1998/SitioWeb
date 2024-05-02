@@ -85,6 +85,14 @@ div {
     border-bottom: 10rem solid transparent;
 }
 
+.overlay-proyecto {
+    display: none;
+}
+
+.overlay-proyecto:hover {
+    display: block;
+}
+
 @media(min-width: 1400px) {
     .background-slider {  height: 38rem; }
 }
@@ -99,14 +107,58 @@ div {
 
 @media(min-width: 768px) and (max-width: 992px) {
     .background-slider {  height: 38rem; }
+
+    .triangulo-superior {
+        border-left: 20rem solid var(--gothic-secondary);
+        border-bottom: 10rem solid transparent;
+    }
+
+    .triangulo-superior2 {
+        border-right: 20rem solid var(--gothic-secondary);
+        border-bottom: 10rem solid transparent;
+    }
 }
 
 @media(min-width: 576px) and (max-width: 768px) {
     .background-slider {  height: 38rem; }
+
+    .triangulo-superior {
+        border-left: 20rem solid var(--gothic-secondary);
+        border-bottom: 10rem solid transparent;
+    }
+
+    .triangulo-superior2 {
+        border-right: 20rem solid var(--gothic-secondary);
+        border-bottom: 10rem solid transparent;
+    }
 }
 
 @media(min-width: 390px) and (max-width: 576px) {
     .background-slider {  height: 38rem; }
+
+    .link-social > i {
+        font-size: 1.5rem;
+    }
+
+    .link-social:hover > i {
+        font-size: 1rem;
+    }
+
+    .mi-foto {
+        margin-top: -1rem;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    .triangulo-superior {
+        border-left: 10rem solid var(--gothic-secondary);
+        border-bottom: 5rem solid transparent;
+    }
+
+    .triangulo-superior2 {
+        border-right: 10rem solid var(--gothic-secondary);
+        border-bottom: 5rem solid transparent;
+    }
 }
 
 @media(min-width: 0px) and (max-width: 390px) {
@@ -124,6 +176,16 @@ div {
         margin-top: -1rem;
         padding-top: 10rem;
         padding-bottom: 10rem;
+    }
+
+    .triangulo-superior {
+        border-left: 10rem solid var(--gothic-secondary);
+        border-bottom: 5rem solid transparent;
+    }
+
+    .triangulo-superior2 {
+        border-right: 10rem solid var(--gothic-secondary);
+        border-bottom: 5rem solid transparent;
     }
 }
 

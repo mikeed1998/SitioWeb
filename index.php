@@ -139,6 +139,17 @@
                     ABOUT ME
                 </div>
             </div>
+            <div class="row">
+                <div class="col-3 mx-auto py-5">
+                    <img src="img/yobase.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-3 mx-auto py-5">
+                    <img src="img/yofase1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-3 mx-auto py-5">
+                    <img src="img/yoandrogino.png" alt="" class="img-fluid">
+                </div>
+            </div>
         </div>
     </div>
 
@@ -162,8 +173,22 @@
                                         <div class="col-2 border border-dark d-flex align-items-center justify-content-center"><i class="bi bi-x-lg fs-3"></i></div>
                                     </div>
                                 </div>
-                                <div class="col-12 border border-dark" style="height: 16rem;">
-
+                                <div class="col-12 border border-dark position-relative" style="
+                                    background-image: url('img/milertek.jpg');
+                                    background-position: center center;
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    height: 16rem;
+                                    width: 100%;
+                                ">  
+                                    <div class="col position-absolute bg-dark top-0 start-0 end-0 bottom-0 overlay-proyecto">
+                                        <div class="row h-100 d-flex align-items-center justify-content-center text-center">
+                                            <div class="col">
+                                            <a href="#/" class="btn btn-outline text-white bg-gothic-secondary">Ver página</a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
