@@ -51,7 +51,7 @@
 
 
     <div class="home-container">
-        <div class="container-fluid bg-white px-0 m-0">
+        <div class="container-fluid bg-transparent px-0 m-0">
             <div class="row">
                 <div class="col background-slider">
                     <div class="row h-100">
@@ -129,7 +129,7 @@
                 <div class="col py-5 position-relative">
                     <div class="row mt-5">
                         <div class="col text-center py-5 text-dark">
-                            HOME
+                            
                         </div>
                     </div>
                     <div class="col position-absolute top-0 start-0">
@@ -139,6 +139,37 @@
                         <div class="triangulo-superior2"></div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col py-5 position-relative">
+                    <div class="row">
+                        <div class="col text-center py-xl-5 py-lg-5 py-md-4 py-sm-1 py-1 mt-lg-2 mt-md-0 mt-0 text-dark">
+                        </div>
+                    </div>
+                    <div class="col position-absolute top-0 start-0">
+                        <div class="triangulo-inferior"></div>
+                    </div>
+                    <div class="col position-absolute top-0 end-0">
+                        <div class="triangulo-inferior2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-5 position-relative">
+                    <div class="row">
+                        <div class="col text-center py-xl-5 py-lg-5 py-md-4 py-sm-1 py-1 mt-lg-2 mt-md-0 mt-0 text-dark">
+                        </div>
+                    </div>
+                    <div class="col position-absolute top-0 start-0">
+                        <div class="triangulo-inferior3"></div>
+                    </div>
+                    <div class="col position-absolute top-0 end-0">
+                        <div class="triangulo-inferior4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-5"></div>
             </div>
         </div>
     </div>
