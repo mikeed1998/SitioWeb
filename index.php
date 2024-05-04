@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="icon" type="image/x-icon" href="img/yoandrogino.png">
     <title>Portafolio</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="vendor/bootstrap-5.3.3-dist/css/bootstrap.css">
@@ -15,29 +16,39 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-gothic-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active rounded-5" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link rounded-5" id="aboutme-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Acerca de mi</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link rounded-5" id="portfolio-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Portafolio</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link rounded-5" id="topics-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Topicos</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link rounded-5" id="contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contacto</button>
-                    </li>
-                </ul>
-            </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-md rounded-5 shadow-sm">
+                <div class="container-fluid">
+                    <button class="navbar-toggler w-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse 2" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-pills nav-fill gap-2 p-1 small bg-gothic-primary rounded-5 shadow-sm w-100" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active rounded-5" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-5" id="aboutme-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Acerca de mi</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-5" id="portfolio-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Portafolio</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-5" id="topics-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Topicos</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-5" id="contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contacto</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
+</div>
+
 
     <div class="home-container">
         <div class="container-fluid bg-white px-0 m-0">
